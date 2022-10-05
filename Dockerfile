@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM --platform=linux/arm64 ubuntu:20.04
 
 # Avoid user input needed only during build
 ARG DEBIAN_FRONTEND=noninteractive
